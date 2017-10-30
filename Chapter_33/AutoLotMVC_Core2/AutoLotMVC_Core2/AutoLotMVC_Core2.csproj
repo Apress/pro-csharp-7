@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="2.5.357" />
+    <PackageReference Include="BundlerMinifier.Core" Version="2.5.357" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="BundlerMinifier.Core" Version="2.5.357" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoLotDAL_Core2.Models\AutoLotDAL_Core2.Models.csproj" />
+    <ProjectReference Include="..\AutoLotDAL_Core2\AutoLotDAL_Core2.csproj" />
+  </ItemGroup>
+
+</Project>

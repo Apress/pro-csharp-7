@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceLib", "MagicEightBallServiceLib\MagicEightBallServiceLib.csproj", "{BD249056-565D-46FF-87B6-51E41AB6FFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceHost", "MagicEightBallServiceHost\MagicEightBallServiceHost.csproj", "{9AEE7261-2B46-4776-8899-AB66B1B667D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicEightBallServiceClient", "MagicEightBallServiceClient\MagicEightBallServiceClient.csproj", "{79DAEB9F-F554-41E4-AC7A-5FE2B11B1006}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD249056-565D-46FF-87B6-51E41AB6FFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD249056-565D-46FF-87B6-51E41AB6FFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD249056-565D-46FF-87B6-51E41AB6FFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD249056-565D-46FF-87B6-51E41AB6FFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AEE7261-2B46-4776-8899-AB66B1B667D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEE7261-2B46-4776-8899-AB66B1B667D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEE7261-2B46-4776-8899-AB66B1B667D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEE7261-2B46-4776-8899-AB66B1B667D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79DAEB9F-F554-41E4-AC7A-5FE2B11B1006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79DAEB9F-F554-41E4-AC7A-5FE2B11B1006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79DAEB9F-F554-41E4-AC7A-5FE2B11B1006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79DAEB9F-F554-41E4-AC7A-5FE2B11B1006}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

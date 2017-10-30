@@ -1,0 +1,41 @@
+﻿@using AutoLotDAL_Core2.Models
+@model IEnumerable<Inventory>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Make)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Color)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PetName)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+<tbody>
+@foreach (var item in Model.ToList())
+{
+
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Make)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Color)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PetName)
+        </td>
+        <td>
+            <a asp-controller="Inventory" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+            <a asp-controller="Inventory" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+            <a asp-controller="Inventory" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+    </tr>
+}
+    </tbody>
+</table>
+

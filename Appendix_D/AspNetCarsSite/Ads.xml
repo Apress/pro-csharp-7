@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>SlugBug.jpg</ImageUrl>
+    <TargetUrl>http://www.Cars.com</TargetUrl>
+    <AlternateText>Your new Car?</AlternateText>
+    <Impressions>80</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>car.gif</ImageUrl>
+    <TargetUrl>http://www.CarSuperSite.com</TargetUrl>
+    <AlternateText>Like this Car?</AlternateText>
+    <Impressions>80</Impressions>
+  </Ad>
+</Advertisements>

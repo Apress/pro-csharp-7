@@ -1,0 +1,67 @@
+Opened connection at 10/17/2015 9:38:43 AM -04:00
+select cast(serverproperty('EngineEdition') as int)
+-- Executing at 10/17/2015 9:38:43 AM -04:00
+-- Completed in 30 ms with result: SqlDataReader
+
+Closed connection at 10/17/2015 9:38:43 AM -04:00
+Opened connection at 10/17/2015 9:38:44 AM -04:00
+IF db_id(N'AutoLot') IS NOT NULL SELECT 1 ELSE SELECT Count(*) FROM sys.databases WHERE [name]=N'AutoLot'
+-- Executing at 10/17/2015 9:38:44 AM -04:00
+-- Completed in 101 ms with result: 1
+
+Closed connection at 10/17/2015 9:38:44 AM -04:00
+Opened connection at 10/17/2015 9:38:44 AM -04:00
+
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.CreditRisks','dbo.Customers','dbo.Orders','dbo.Inventory')
+    OR t.TABLE_NAME = 'EdmMetadata'
+-- Executing at 10/17/2015 9:38:44 AM -04:00
+-- Completed in 56 ms with result: 4
+
+Closed connection at 10/17/2015 9:38:44 AM -04:00
+Opened connection at 10/17/2015 9:38:45 AM -04:00
+SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+-- p__linq__0: 'AutoLotDAL.Migrations.Configuration' (Type = String, Size = 4000)
+-- Executing at 10/17/2015 9:38:46 AM -04:00
+-- Completed in 32 ms with result: SqlDataReader
+
+Closed connection at 10/17/2015 9:38:46 AM -04:00
+Opened connection at 10/17/2015 9:38:46 AM -04:00
+SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+-- p__linq__0: 'AutoLotDAL.Migrations.Configuration' (Type = String, Size = 4000)
+-- Executing at 10/17/2015 9:38:46 AM -04:00
+-- Completed in 17 ms with result: SqlDataReader
+
+Closed connection at 10/17/2015 9:38:46 AM -04:00
+Opened connection at 10/17/2015 9:38:46 AM -04:00
+SELECT 
+    [Extent1].[CarId] AS [CarId], 
+    [Extent1].[Make] AS [Make], 
+    [Extent1].[Color] AS [Color], 
+    [Extent1].[PetName] AS [PetName], 
+    [Extent1].[Timestamp] AS [Timestamp]
+    FROM [dbo].[Inventory] AS [Extent1]
+-- Executing at 10/17/2015 9:38:46 AM -04:00
+-- Completed in 12 ms with result: SqlDataReader
+
+Closed connection at 10/17/2015 9:38:46 AM -04:00

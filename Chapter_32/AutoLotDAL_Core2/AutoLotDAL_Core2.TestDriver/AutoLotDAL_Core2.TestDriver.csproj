@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoLotDAL_Core2.Models\AutoLotDAL_Core2.Models.csproj" />
+    <ProjectReference Include="..\AutoLotDAL_Core2\AutoLotDAL_Core2.csproj" />
+  </ItemGroup>
+
+</Project>

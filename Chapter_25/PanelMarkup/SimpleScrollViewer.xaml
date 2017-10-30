@@ -1,0 +1,15 @@
+<Page 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Fun with Panels!" Height="150" Width="201">
+
+	<ScrollViewer>
+		<StackPanel>
+			<Button Content ="First" Background = "Green" Height ="40"/>
+			<Button Content ="Second" Background = "Red" Height ="40"/>
+			<Button Content ="Third" Background = "Pink" Height ="40"/>
+			<Button Content ="Fourth" Background = "Yellow" Height ="40"/>
+			<Button Content ="Fifth" Background = "Blue" Height ="40"/>		
+		</StackPanel>
+	</ScrollViewer>
+</Page>

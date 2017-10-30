@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL.Models", "AutoLotDAL.Models\AutoLotDAL.Models.csproj", "{9A917D7C-885E-4D9A-818F-9955871A4FBB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AutoLotWCFService", "AutoLotWCFService\", "{4C19C0BC-7A1D-4AF7-95AC-F963C5C15962}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7"
+		ProjectReferences = "{9a917d7c-885e-4d9a-818f-9955871a4fbb}|AutoLotDAL.Models.dll;{7e5a8812-c303-4ae0-a6e7-4ac96ec11624}|AutoLotDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_51819"
+		Debug.AspNetCompiler.PhysicalPath = "AutoLotWCFService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51819\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_51819"
+		Release.AspNetCompiler.PhysicalPath = "AutoLotWCFService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_51819\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51819"
+		SlnRelativePath = "AutoLotWCFService\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C19C0BC-7A1D-4AF7-95AC-F963C5C15962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C19C0BC-7A1D-4AF7-95AC-F963C5C15962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C19C0BC-7A1D-4AF7-95AC-F963C5C15962}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C19C0BC-7A1D-4AF7-95AC-F963C5C15962}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,72 @@
+﻿@using AutoLotDAL.Models
+@model IEnumerable<AutoLotDAL.Models.Inventory>
+@helper ShowInventory(Inventory item)
+{
+    @item.Make<text>-</text>
+    @item.Color<text>(</text>
+    @item.PetName<text>)</text>
+}
+@functions
+{
+
+    public IList<Inventory> SortCars(IList<Inventory> cars)
+    {
+        var list = from s in cars orderby s.PetName select s;
+        return list.ToList();
+    }
+}
+@*This will be bold: @b("Foo")*@
+
+@{
+    Func<dynamic, object> b = @<strong>@item</strong>;
+}
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Make)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Color)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PetName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in SortCars(Model.ToList()))
+    {
+        @*@ShowInventory(item)*@
+        @Html.DisplayFor(modelItem=>item,"InventoryList")
+        @*<tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Make)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Timestamp)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>*@
+    }
+
+</table>

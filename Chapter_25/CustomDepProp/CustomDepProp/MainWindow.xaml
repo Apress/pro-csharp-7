@@ -1,0 +1,25 @@
+﻿<Window x:Class="CustomDepProp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:myCtrls="clr-namespace:CustomDepProp"
+        xmlns:local="clr-namespace:CustomDepProp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="100" Width="200" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <myCtrls:ShowNumberControl x:Name="myShowNumberCtrl" CurrentNumber="100">
+            <myCtrls:ShowNumberControl.Triggers>
+                <EventTrigger RoutedEvent = "myCtrls:ShowNumberControl.Loaded">
+                    <EventTrigger.Actions>
+                        <BeginStoryboard>
+                            <Storyboard TargetProperty = "CurrentNumber">
+                                <Int32Animation From = "100" To = "200" Duration = "0:0:10"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger.Actions>
+                </EventTrigger>
+            </myCtrls:ShowNumberControl.Triggers>
+        </myCtrls:ShowNumberControl>
+    </StackPanel>
+</Window>

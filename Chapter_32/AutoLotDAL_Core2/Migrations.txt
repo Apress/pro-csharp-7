@@ -1,0 +1,3 @@
+dotnet ef migrations add Initial --context AutoLotDAL_Core2.EF.AutoLotContext -o EF\Migrations
+dotnet ef database update
+dotnet ef migrations remove

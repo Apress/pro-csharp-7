@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectResourcesApp", "ObjectResourcesApp\ObjectResourcesApp.csproj", "{1F29D65E-F9F9-4B77-A825-0A423723907D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBrushesLibrary", "MyBrushesLibrary\MyBrushesLibrary.csproj", "{4035BC40-D533-4B98-9B6F-8FBA3934C3F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F29D65E-F9F9-4B77-A825-0A423723907D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F29D65E-F9F9-4B77-A825-0A423723907D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F29D65E-F9F9-4B77-A825-0A423723907D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F29D65E-F9F9-4B77-A825-0A423723907D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4035BC40-D533-4B98-9B6F-8FBA3934C3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4035BC40-D533-4B98-9B6F-8FBA3934C3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4035BC40-D533-4B98-9B6F-8FBA3934C3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4035BC40-D533-4B98-9B6F-8FBA3934C3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

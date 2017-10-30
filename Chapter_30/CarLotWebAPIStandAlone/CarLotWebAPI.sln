@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLotWebAPI", "CarLotWebAPI\CarLotWebAPI.csproj", "{4F912A0E-7FA1-4FE6-9057-2BA946F1661E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL.Models", "AutoLotDAL.Models\AutoLotDAL.Models.csproj", "{9A917D7C-885E-4D9A-818F-9955871A4FBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F912A0E-7FA1-4FE6-9057-2BA946F1661E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F912A0E-7FA1-4FE6-9057-2BA946F1661E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F912A0E-7FA1-4FE6-9057-2BA946F1661E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F912A0E-7FA1-4FE6-9057-2BA946F1661E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A917D7C-885E-4D9A-818F-9955871A4FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3D2B5E2-3206-4C5A-9693-889367BB38A6}
+	EndGlobalSection
+EndGlobal

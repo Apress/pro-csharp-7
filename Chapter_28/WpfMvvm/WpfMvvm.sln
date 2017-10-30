@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvm", "WpfMvvm\WpfMvvm.csproj", "{0C732E36-6DB9-4819-9D43-4D6EDE29F3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL.Models", "AutoLotDAL.Models\AutoLotDAL.Models.csproj", "{97F97A92-410D-4270-AAF5-C6CEBBAE8FBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C732E36-6DB9-4819-9D43-4D6EDE29F3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C732E36-6DB9-4819-9D43-4D6EDE29F3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C732E36-6DB9-4819-9D43-4D6EDE29F3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C732E36-6DB9-4819-9D43-4D6EDE29F3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5A8812-C303-4AE0-A6E7-4AC96EC11624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F97A92-410D-4270-AAF5-C6CEBBAE8FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F97A92-410D-4270-AAF5-C6CEBBAE8FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F97A92-410D-4270-AAF5-C6CEBBAE8FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F97A92-410D-4270-AAF5-C6CEBBAE8FBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

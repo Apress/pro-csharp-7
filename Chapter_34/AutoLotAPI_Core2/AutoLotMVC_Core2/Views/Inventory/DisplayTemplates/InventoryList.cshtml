@@ -1,0 +1,18 @@
+﻿@using AutoLotDAL_Core2.Models
+@model Inventory
+<tr>
+    <td>
+        @Html.DisplayFor(model => model.Make)
+    </td>
+    <td>
+        @Html.DisplayFor(model => model.Color)
+    </td>
+    <td>
+        @Html.DisplayFor(model => model.PetName)
+    </td>
+    <td>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+        <a asp-action="Details" asp-route-id="@Model.Id">Details</a> |
+        <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+    </td>
+</tr>
