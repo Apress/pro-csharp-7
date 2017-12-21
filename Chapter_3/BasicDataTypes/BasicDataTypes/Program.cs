@@ -144,7 +144,7 @@ namespace BasicDataTypes
     static void ParseFromStringsWithTryParse()
     {
       Console.WriteLine("=> Data type parsing with TryParse:");
-      if (bool.TryParse("True", out bool b)) ;
+      if (bool.TryParse("True", out bool b))
       {
         Console.WriteLine("Value of b: {0}", b);
       }
