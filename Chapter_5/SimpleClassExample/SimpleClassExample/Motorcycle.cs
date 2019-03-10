@@ -46,11 +46,12 @@ namespace SimpleClassExample
         // Single constructor using optional args.
         public Motorcycle(int intensity = 0, string name = "")
         {
+            driverIntensity = intensity;
             if (intensity > 10)
             {
                 intensity = 10;
             }
-            driverIntensity = intensity;
+            
             driverName = name;
         }
 
@@ -69,11 +70,12 @@ namespace SimpleClassExample
 
         public void SetIntensity(int intensity)
         {
+            driverIntensity = intensity;
             if (intensity > 10)
             {
                 intensity = 10;
             }
-            driverIntensity = intensity;
+            
         }
     }
 }
