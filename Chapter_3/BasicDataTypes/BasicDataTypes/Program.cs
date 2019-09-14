@@ -201,6 +201,7 @@ namespace BasicDataTypes
       BigInteger reallyBig2 = biggy * reallyBig;
 
       Console.WriteLine("Value of reallyBig is {0}", reallyBig);
+      Console.WriteLine();
     }
 
     #endregion
@@ -220,6 +221,7 @@ namespace BasicDataTypes
       Console.WriteLine(123_456.12);
       Console.Write("Decimal:");
       Console.WriteLine(123_456.12M);
+      Console.WriteLine();
     }
 
     #endregion
