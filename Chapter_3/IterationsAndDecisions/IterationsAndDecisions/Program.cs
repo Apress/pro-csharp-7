@@ -259,7 +259,7 @@ namespace IterationsAndDecisions
           choice = "Hi";
           break;
         case "3":
-          choice = 2.5;
+          choice = 2.5m;
           break;
         default:
           choice = 5;
