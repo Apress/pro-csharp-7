@@ -98,7 +98,7 @@ namespace UnsafeCode
 
             // Print some stats.
             Console.WriteLine("Value of myInt {0}", myInt);
-            Console.WriteLine("Address of myInt {0:X}", (int)&ptrToMyInt);
+            Console.WriteLine("Address of myInt {0:X}", (int)ptrToMyInt);
         }
 
         public static unsafe void UnsafeSwap( int* i, int* j )
