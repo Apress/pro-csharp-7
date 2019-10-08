@@ -77,9 +77,9 @@ namespace IterationsAndDecisions
       // Test on a lower-class copy of the string.
       while (userIsDone.ToLower() != "yes")
       {
+        Console.WriteLine("In while loop");
         Console.Write("Are you done? [yes] [no]: ");
         userIsDone = Console.ReadLine();
-        Console.WriteLine("In while loop");
       }
       Console.WriteLine();
     }
