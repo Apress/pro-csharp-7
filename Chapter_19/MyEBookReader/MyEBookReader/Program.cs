@@ -30,7 +30,7 @@ namespace MyEBookReader
             // The Project Gutenberg EBook of A Tale of Two Cities, by Charles Dickens
             // You might have to run it twice if you’ve never visited the site before, since the first
             // time you visit there is a message box that pops up, and breaks this code.
-            wc.DownloadStringAsync(new Uri("http://www.gutenberg.org/files/98/98-8.txt"));
+            wc.DownloadStringAsync(new Uri("http://www.gutenberg.org/files/98/98-0.txt"));
         }
         static void GetStats()
         {
